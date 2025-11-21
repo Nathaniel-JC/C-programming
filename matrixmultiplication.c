@@ -11,7 +11,7 @@ int main() {
     printf("Give the number of columns (c1): ");
     if (scanf("%d", &c1) != 1) return 1;
 
-    // Get dimensions for the Second Matrix (B)
+    //  dimensions for the Second Matrix (B)
     printf("\n--- Second Matrix ---\n");
     printf("Give the number of rows (r2): ");
     if (scanf("%d", &r2) != 1) return 1;
@@ -46,7 +46,6 @@ int main() {
     for (i = 0; i < r1; i++) {
         for (j = 0; j < c1; j++) {
             printf("Enter first[%d][%d]: ", i, j);
-            // FIX: Use scanf() to read input, not printf()
             if (scanf("%d", &first[i][j]) != 1) return 1;
         }
     }
@@ -78,7 +77,7 @@ for (i = 0; i < r1; i++) {
         printf("\n");
     }
 
-    // 5. Initialize Final Matrix to Zero
+    // 5. Initializing Final Matrix to Zero
    
     for (i = 0; i < r1; i++) {
         for (j = 0; j < c2; j++) {
