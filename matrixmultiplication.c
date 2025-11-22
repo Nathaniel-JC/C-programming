@@ -70,7 +70,7 @@ for (i = 0; i < r1; i++) {
 
 
     //second
-    printf("second matrix\n");
+    printf("second matrix\n");2
     for (i = 0; i < r2; i++) {
         for (j = 0; j < c2; j++) {
             printf("%d\t", second[i][j]);
